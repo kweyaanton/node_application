@@ -1,12 +1,6 @@
-const amount =  12;
+const _ = require('lodash')
 
-if(amount < 10){
-    console.log("small number")
-}
+const items = [1,[2,[3,[4]]]]
 
-else{
-    console.log("large number")
-}
-
-
-console.log(`it is my first node app`)
+const newitems = _.flattenDeep(items)
+console.log(newitems);

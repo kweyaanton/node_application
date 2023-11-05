@@ -1,0 +1,24 @@
+{
+  "name": "node_application",
+  "version": "1.0.0",
+  "description": "a node application in node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kweyaanton/node_application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kweyaanton/node_application/issues"
+  },
+  "homepage": "https://github.com/kweyaanton/node_application#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "lodash": "^4.17.21"
+  }
+}
